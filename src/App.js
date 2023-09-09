@@ -7,7 +7,8 @@ import Axios from "axios"
 //Funcão Principal
 function App() {
   //Declarando o nome do Pokemon como variável
-  const [pokeNome, setPokeNome] = useState("")
+  const [nome, setPokeNome] = useState("")
+  const pokeNome = nome.toLowerCase()
   const [pokeChosen, setPokemonChosen] = useState(false)
   const [pokemon, setPokemon] = useState({
     name: "", 
