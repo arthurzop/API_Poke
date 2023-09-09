@@ -1,6 +1,7 @@
 .App{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     flex-direction: column;
@@ -48,9 +49,10 @@
   align-items: center;
   font-size: 20px;
   background-color: #e9e9e9;
-  margin: 20px 150px 0 150px;
   padding-bottom: 10px;
   border-radius: 10px;
+  width: 60%;
+  margin-top: 10px;
 }
 
 .DisplayPoke h4, h3 {
@@ -59,5 +61,81 @@
 
 .DisplayPoke img {
   width: 300px;
+}
 
+.DisplayPoke span{
+  border-radius: 15px;
+  padding: 9px;
+}
+
+.fire{
+  background-color: #F6AD7C;
+}
+
+.water{
+  background-color:#9EB9F5 ;
+}
+
+.normal{
+  background-color: #C8C6A7;
+}
+
+.grass{
+  background-color: #A8DD90;
+}
+
+.fighting{
+  background-color: #D67B76;
+}
+
+.flying{
+  background-color: #C8B9F6;
+}
+
+.dark{
+  background-color: #A49389;
+}
+
+.fairy{
+  background-color: #F6BECC;
+}
+
+.dragon{
+  background-color: #A27FF9;
+}
+
+.poison{
+  background-color: #C384C2;
+}
+
+.psychic{
+  background-color: #FA94B3;
+}
+
+.ghost{
+  background-color: #A593BD;
+}
+
+.ice{
+  background-color: #BCE7E6; 
+}
+
+.bug {
+  background-color: #C7D06F;
+}
+
+.steel{
+  background-color:#D2D2DF ;   
+}
+
+.rock{
+  background-color :#D2C27D;
+}
+
+.ground{
+  background-color: #EBD89F;
+}
+
+.electric{
+  background-color: #F9E17B;
 }
