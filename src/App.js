@@ -1,5 +1,4 @@
 // Importando
-
 import './App.css';
 import { useState } from 'react';
 import Axios from "axios"
@@ -37,7 +36,7 @@ function App() {
   );
 };
 
- //O que vai aparecer realmente na página:
+ //O que vai aparecer na página:
   return (
     <div className="App">
       <div className='TitleSection'>
@@ -54,7 +53,7 @@ function App() {
           <>
             <h1>{pokemon.name}</h1>
             <img src={pokemon.img}/>
-            <h3>Tipo: {pokemon.type}</h3>
+            <h3>Tipo: <span className={pokemon.type}>{pokemon.type}</span></h3>
             <h3>Nº Pokedex: {pokemon.id}</h3>
             <h4>Hp: {pokemon.hp}</h4>
             <h4>Ataque: {pokemon.attack}</h4>
@@ -65,6 +64,7 @@ function App() {
     </div>
   );
 }
+
 
 
 //Exportando
