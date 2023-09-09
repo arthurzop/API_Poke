@@ -41,6 +41,7 @@
 
 .TitleSection button:hover{
   cursor: pointer;
+  background-color: rgba(1, 184, 62, 0.6);
 }
 
 .DisplayPoke {
@@ -51,12 +52,18 @@
   background-color: #e9e9e9;
   padding-bottom: 10px;
   border-radius: 10px;
-  width: 60%;
+  width: 40%;
   margin-top: 10px;
 }
 
+.DisplayPoke img{
+  background-color: #f3f3f3;
+  border-radius: 100%;
+  margin-bottom: 40px;
+}
+
 .DisplayPoke h4, h3 {
-  margin: 5px;
+  margin: 7px;
 }
 
 .DisplayPoke img {
