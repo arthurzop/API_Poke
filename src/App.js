@@ -78,7 +78,7 @@ function App() {
       </div>
       <div className='DisplayPoke'>
         {!pokeChosen ? (
-          <h1>Escolha um Pokémon!</h1>
+          <h2>Escolha um Pokémon!</h2>
         ) : (
           <>
             <h1>{pokemon.name}</h1>
