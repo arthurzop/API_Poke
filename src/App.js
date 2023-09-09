@@ -67,7 +67,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='TitleSection'>
+      <div className='titulo'>
         <h1>Pokémon DataBase</h1>
         <input
           type="text"
@@ -76,9 +76,9 @@ function App() {
         />
         <button onClick={procuraPoke}>Procurar Pokémon</button>
       </div>
-      <div className='DisplayPoke'>
+      <div className='display'>
         {!pokeChosen ? (
-          <h2>Escolha um Pokémon!</h2>
+          <h1>Escolha um Pokémon!</h1>
         ) : (
           <>
             <h1>{pokemon.name}</h1>
