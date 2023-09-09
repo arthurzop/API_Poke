@@ -27,6 +27,11 @@
   border: 1px solid rgba(71, 71, 71, 0.6);
   font-size: 18px;
   padding-left: 10px;
+  cursor: text;
+}
+
+.titulo input:focus{
+  outline: none;
 }
 
 .titulo button {
