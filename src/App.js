@@ -62,6 +62,7 @@ function App() {
       })
       .catch((error) => {
         console.error("Erro na solicitação", error);
+        alert("Ocorreu um erro com a API");
       });
   };
 
