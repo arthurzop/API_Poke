@@ -1,4 +1,4 @@
-# API_Poke
+# React - PokeAPI
 
 O projeto se baseia nos personagens dos jogos Pokémon, para utilizar basta pesquisar o nome de um Pokémon para receber as informações.
 
