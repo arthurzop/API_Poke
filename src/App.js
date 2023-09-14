@@ -58,6 +58,7 @@ function App() {
 
           // define a verificação do pokemon como true, confirma essa verificação
           setPokemonChosen(true);
+          console.log(pokemon)
         }
       })
       .catch((error) => {
