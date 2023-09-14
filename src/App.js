@@ -58,7 +58,6 @@ function App() {
 
           // define a verificação do pokemon como true, confirma essa verificação
           setPokemonChosen(true);
-          console.log(pokemon);
         }
       })
       .catch((error) => {
@@ -112,4 +111,5 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+console.log(pokemon);
 export default App;
