@@ -69,9 +69,10 @@
 .display img {
   background-color: #f3f3f3;
   border-radius: 100%;
-  padding: 20px;
+  padding: 35px;
   margin-bottom: 40px;
-  width: 260px;
+  width: 300px;
+  overflow: visible;
 }
 
 .display h4, h3 {
